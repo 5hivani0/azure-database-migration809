@@ -8,13 +8,13 @@
 
 ## Tasks accomplished in each milestone ##  
 ## Milestone 1: Set up the Environment ##
-1. I set up this GitHub Repo to document the development of this project.
-2.  I set up an Azure account with login credentials that i will use thoughout this project.  
+1.  Set up this GitHub Repo to document the development of this project.
+2.  Set up an Azure account with login credentials that will be use thoughout this project.  
 
 
 ## Milestone 2: Set up the Production Environment ##
 1. Virtual Machine Creation
-    - Created a Windows Virtual Machine named production-vm.
+    - Created a Windows Virtual Machine (VM) named production-vm.
     - Assigned the VM to the resource group named my-vm-rg.
 2. Network Configuration
     - Configured appropriate network settings to ensure secure communication.
@@ -53,15 +53,19 @@
 
  ## Milestone 4: Data Backup and Restore ##
 1. Backup the On-Premise Database
-    - w
+    - Generated a full back up of the production database on my production-vm.
 2. Create Blob Storage
-    - w
+    - Configured a Blob storage account and container to serve as a secure online repository for my database backups.
 3. Upload Backup to Blob Storage
-    - w
-4. Restre Database on Development Environment
-    - w
+    - Uploaded previously created backup file to my Blob storage container, to provide nan extra layer of backup protection
+4. Restore Database on Development Environment
+    - Created a development VM called development-vm which can be used for testing, developing, and experimenting.
+    - Installed SQL Server and SSMS to provide necessary database infrastructure.
+    - Downloaded the backup file stored previously in my Blob storage container.
+    - Restored the database on my development-vm.
 5. Automate Backups for Development Database
-    - w
+    - Created credentials to access my storagea account from SSMS.
+    - Created a maintenance plan in SSMS that automated regular weekly backups of my development database to my Azure Blob storage, ensuring consistent protection for my evolving work and to simplify recovery of my development environment if needed.
 
 ## Milestone 5: Disaster Recovery Simulation ##
 1. Mimic Data Loss in Production Environment
