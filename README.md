@@ -69,9 +69,14 @@
 
 ## Milestone 5: Disaster Recovery Simulation ##
 1. Mimic Data Loss in Production Environment
-    - w
+    - To mimic data loss, in Data Studio, i simuluated data corruption of the Production table in the databse by creating a query that updated the top 100 rows of the ProductionDescription column with the value 'n/a'.
+    - After running the simulation, i verified the data corruption was present in the Production table.
+    - I ran the data corruption simulation at 10:59:24 AM on the 21/12/2023.
+
 2. Restore Database from Azure SQL Database Backup
-    - w
+    - In the Azure protal, i used restore on the SQL Database Backup to create a restored version of the data base from the point in time of 09:00:00 AM on the 21/12/2023, roughly 2 hours before the corruption was made. This version was saved by the name of production-database-restored.
+    - Through the connection on Azure Data Studio, i verified this restored database deployment had been successful.
+    - Through the Azure portal, i then deleted the previous database (my-databse) with the corruption, to make the restored database that contains all the critical information the new production database.
 
 ## Milestone 6: Geo Replication and Failover ##
 1. Set up Geo-replcation for Azure SQL Database
