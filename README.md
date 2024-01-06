@@ -87,7 +87,10 @@
     - Performed a tailback to the primary region to demonstrate the cyclical nature of my failover strategy.
 
 ## Milestone 7: Microsoft Entra Directory Integration ##
-1. Configure Microsoft Entra ID for Azure
-    - w
+1. Configure Microsoft Entra ID for Azure SQL Database
+    - Enableb Microsoft Entra ID authentication for the SQL Server hosting my Azure SQL production database to integrate it as a trusted identity provider.
+    - Designated myself as a Microsoft Entra admin with privileged permissions for user management and access control, ensuring the ability to connect to the production database using Microsoft Entra credentials in Azure Data Studio.
 2. Create DB Reader User
-    - w
+    - Created a new user in Microsoft Entra ID
+    - After connecting to the production database using my Microsoft Entra Admin credentials, i assigned the db_datareader role to the new user i created, so that they are granted read-only privileges.
+    - Verified the assigned role given to the user by reconnecting to the production database using Azure Data Studio and the new user credentials, to then test that the user can only perform task that they have been given permission to do.
