@@ -1,9 +1,23 @@
 # Azure Database Migration Project #  
-
+  
+## Table of Contents ##
+- Description
+- What I Gained
+- The Documented Stages of Development for this Project
+    - Stage 1: Setting up the Environment
+    - Stage 2: Setting up the Production Environment
+    - Stage 3: Migrating to Azure SQL Database
+    - Stage 4: Data Backup and Restoration
+    - Stage 5: Disaster Recovery Simulation
+    - Stage 6: Geo-Replication and Failover
+    - Stage 7: Microsoft Entra Directory Integration
+- UML Diagram Illustrating the Architecture I Have Built
+- License
+  
 ## Description ##  
 This Azure Database Migration project involved designing and implementing a cloud-based database on Microsoft Azure. This included setting up a production database and seamlessly migrating to Azure SQL Database. Key steps included creating a production and development environment, data backup, restoration procedures, and automated scheduling. Disaster recovery scenarios were simulated with geo-replication and failover configuration for improved data availability, and Microsoft Entra ID integration enhanced security through access role definition.
 
-## What I learnt ##  
+## What I Gained ##  
 Throughout this project, I've successfully designed and implemented a cloud-based database system on Microsoft Azure, showcasing my practical expertise in cloud engineering. The initial steps involved setting up a production environment database, followed by a seamless migration to Azure SQL Database. This migration process was particularly focused on key aspects such as creating a development environment, data backups using blob storage, restoration procedures, and automated scheduling, significantly reinforcing my data management skills.
 
 A crucial phase of the project included simulating a disaster recovery scenario with potential data loss. This allowed me to delve into the intricacies of geo-replication and failover configuration, testing data availability in the event of unforeseen disruptions. This experience not only honed my disaster recovery skills but also provided valuable insights into maintaining data integrity and continuity.
