@@ -22,8 +22,8 @@ Overall, this project has equipped me with a comprehensive skill set in architec
 ## UML Diagram Illustrating the Architecture I Have Built ##
 ![Azure Project Diagram](https://github.com/5hivani0/azure-database-migration809/assets/149093767/b402b2f4-7cd3-4531-8b5e-0b1329bc8c3d)  
     
-## Project Development Documentation ##  
-Use this [Wiki link](https://github.com/5hivani0/azure-database-migration809.wiki.git) to see the Documented Stages of Development for this Project, inlcuding the following:  
+## Project Development Documentation ## 
+Explore the Wiki pages to find step-by-step instructions and best practices for successful project development. I have documented the different stages into the following Wiki pages:  
 - Stage 1: Setting up the Environment  
 - Stage 2: Setting up the Production Environment  
 - Stage 3: Migrating to Azure SQL Database  
@@ -31,7 +31,12 @@ Use this [Wiki link](https://github.com/5hivani0/azure-database-migration809.wik
 - Stage 5: Disaster Recovery Simulation  
 - Stage 6: Geo-Replication and Failover  
 - Stage 7: Microsoft Entra Directory Integration  
-
+  
+To clone this project's Wiki and access the documentation locally, use the following Git command:
+```
+git clone https://github.com/5hivani0/azure-database-migration809.wiki.git
+```
+This will provide you with a local copy of the documentation, allowing for convenient offline reference.   
     
 ## License ##
 MIT
