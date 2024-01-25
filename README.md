@@ -19,9 +19,9 @@ In terms of security measures, I integrated Microsoft Entra ID to define access 
 
 Overall, this project has equipped me with a comprehensive skill set in architecting and managing cloud-based database systems on Microsoft Azure. From initial setup and migration to disaster recovery simulations and security enhancements, each phase has contributed to my hands-on expertise in cloud engineering.  
     
-## UML Diagram Illustrating the Architecture I Have Built ##
-![Azure Project Diagram](https://github.com/5hivani0/azure-database-migration809/assets/149093767/b402b2f4-7cd3-4531-8b5e-0b1329bc8c3d)  
-    
+## UML Diagram Illustrating the Architecture I Have Built ##  
+![azure schema](https://github.com/5hivani0/azure-database-migration809/assets/149093767/7838ff59-d7bc-474f-ab83-160f13b88f71)
+  
 ## Project Development Documentation ## 
 Explore the Wiki pages to find step-by-step instructions and best practices for successful project development. I have documented the different stages into the following Wiki pages:  
 - Stage 1: Setting up the Environment  
